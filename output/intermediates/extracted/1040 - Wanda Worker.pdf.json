@@ -1,0 +1,132 @@
+{
+  "personal_info": {
+    "first_name": "Wanda",
+    "middle_initial": null,
+    "last_name": "Worker",
+    "social_security_number": "123-45-6789",
+    "spouse_first_name": null,
+    "spouse_middle_initial": null,
+    "spouse_last_name": null,
+    "spouse_social_security_number": null,
+    "date_of_birth": null,
+    "age": null,
+    "blind": false,
+    "spouse_blind": false,
+    "dependents": []
+  },
+  "contact_info": {
+    "home_address": {
+      "street": "123 Main St",
+      "apt_no": null,
+      "city": "Springfield",
+      "state": "IL",
+      "zip_code": "62704",
+      "foreign_country_name": null,
+      "foreign_province_state_county": null,
+      "foreign_postal_code": null
+    },
+    "phone_number": null,
+    "email_address": null
+  },
+  "filing_info": {
+    "filing_status": "Married filing jointly",
+    "presidential_election_campaign_contribution": true,
+    "digital_assets": {
+      "received": false,
+      "sold": false
+    },
+    "standard_deduction": {
+      "amount": 29200,
+      "filing_status": "Married filing jointly"
+    },
+    "adjusted_gross_income": null,
+    "taxable_income": null,
+    "total_income": null
+  },
+  "income_details": {
+    "wages": {
+      "total_amount": 15489,
+      "household_employee_wages": null,
+      "tip_income": null,
+      "medicaid_waiver_payments": null,
+      "taxable_dependent_care_benefits": null,
+      "employer_provided_adoption_benefits": null,
+      "wages_from_form_8919": null,
+      "other_earned_income": null,
+      "nontaxable_combat_pay_election": null
+    },
+    "interest": {
+      "tax_exempt_interest": null,
+      "taxable_interest": null
+    },
+    "dividends": {
+      "qualified_dividends": null,
+      "ordinary_dividends": null
+    },
+    "ira_distributions": {
+      "total": null,
+      "taxable_amount": null
+    },
+    "pensions_and_annuities": {
+      "total": null,
+      "taxable_amount": null
+    },
+    "social_security_benefits": {
+      "total": null,
+      "taxable_amount": null
+    },
+    "capital_gain_loss": null,
+    "additional_income": null
+  },
+  "tax_details": {
+    "total_tax": null,
+    "child_tax_credit": null,
+    "other_taxes": null,
+    "total_payments": null,
+    "refund": {
+      "amount": null,
+      "direct_deposit": {
+        "routing_number": null,
+        "account_type": null,
+        "account_number": null
+      }
+    },
+    "amount_owed": null,
+    "estimated_tax_penalty": null
+  },
+  "third_party_designee": {
+    "allow": false,
+    "designee_name": null,
+    "phone_number": null,
+    "personal_identification_number": null
+  },
+  "signature_info": {
+    "taxpayer_signature": null,
+    "taxpayer_signature_date": null,
+    "taxpayer_occupation": null,
+    "spouse_signature": null,
+    "spouse_signature_date": null,
+    "spouse_occupation": null
+  },
+  "preparer_info": {
+    "name": null,
+    "signature": null,
+    "date": null,
+    "ptin": null,
+    "self_employed": false,
+    "firm_name": null,
+    "firm_phone": null,
+    "firm_address": null,
+    "firm_ein": null
+  },
+  "confidence": {
+    "personal_info": 1.0,
+    "contact_info": 1.0,
+    "filing_info": 1.0,
+    "income_details": 0.8,
+    "tax_details": 0.8,
+    "third_party_designee": 1.0,
+    "signature_info": 0.5,
+    "preparer_info": 0.5
+  }
+}

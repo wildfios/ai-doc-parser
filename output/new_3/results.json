@@ -1,0 +1,1056 @@
+{
+  "client_profile": {
+    "general_information": {
+      "client_1": {
+        "name": "Wanda Worker",
+        "dob": "1962-04-05"
+      },
+      "home_address": {
+        "street": "123 Main St",
+        "city": "Springfield",
+        "state": "IL",
+        "zip": "62704"
+      }
+    },
+    "employment_data": {
+      "client_1": {
+        "annual_income": 54489,
+        "estimated_retirement_date_age": 67,
+        "social_security_income_at_age": 2083
+      }
+    },
+    "real_estate": {
+      "primary_residence": {
+        "owner": "Wanda Worker"
+      }
+    }
+  },
+  "field_metadata": {
+    "general_information.client_1.name": {
+      "has_value": true,
+      "confidence": 1.0
+    },
+    "general_information.client_1.dob": {
+      "has_value": true,
+      "confidence": 1.0
+    },
+    "general_information.client_1.mobile_phone": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "general_information.client_1.email": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "general_information.client_2.name": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "general_information.client_2.dob": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "general_information.client_2.mobile_phone": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "general_information.client_2.email": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "general_information.home_address.street": {
+      "has_value": true,
+      "confidence": 1.0
+    },
+    "general_information.home_address.city": {
+      "has_value": true,
+      "confidence": 1.0
+    },
+    "general_information.home_address.state": {
+      "has_value": true,
+      "confidence": 1.0
+    },
+    "general_information.home_address.zip": {
+      "has_value": true,
+      "confidence": 1.0
+    },
+    "employment_data.client_1.employer": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "employment_data.client_1.annual_income": {
+      "has_value": true,
+      "confidence": 1.0
+    },
+    "employment_data.client_1.additional_income_from": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "employment_data.client_1.estimated_retirement_date_age": {
+      "has_value": true,
+      "confidence": 1.0
+    },
+    "employment_data.client_1.social_security_income_at_age": {
+      "has_value": true,
+      "confidence": 1.0
+    },
+    "employment_data.client_2.employer": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "employment_data.client_2.annual_income": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "employment_data.client_2.additional_income_from": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "employment_data.client_2.estimated_retirement_date_age": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "employment_data.client_2.social_security_income_at_age": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "employment_data.retirement_income_needed.amount": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "employment_data.retirement_income_needed.before_or_after_tax": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "objectives.investment_timeline.short_term": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "objectives.investment_timeline.medium_term": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "objectives.investment_timeline.long_term": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "objectives.risk_tolerance": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "objectives.advisor_information.insurance_agent": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "objectives.advisor_information.cpa": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "objectives.advisor_information.attorney": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "objectives.advisor_information.other_financial_advisor": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "objectives.advisor_information.has_current_will": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "objectives.advisor_information.has_current_trust": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "objectives.about_you": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.401k_information.value_self": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.401k_information.value_spouse": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.401k_information.projected_annual_contribution_self": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.401k_information.projected_annual_contribution_spouse": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.401k_information.company_match_self_percent": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.401k_information.company_match_spouse_percent": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.401k_information.deferred_compensation_value_self": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.401k_information.deferred_compensation_match_self_percent": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.401k_information.deferred_compensation_value_spouse": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.401k_information.deferred_compensation_match_spouse_percent": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.retirement_account_balances.traditional_ira_self": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.retirement_account_balances.traditional_ira_spouse": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.retirement_account_balances.roth_ira_self": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.retirement_account_balances.roth_ira_spouse": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.retirement_account_balances.annual_ira_contribution_self.type": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.retirement_account_balances.annual_ira_contribution_self.amount": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.retirement_account_balances.annual_ira_contribution_spouse.type": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.retirement_account_balances.annual_ira_contribution_spouse.amount": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.retirement_account_balances.annuity_balance_self": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.retirement_account_balances.annuity_balance_spouse": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.pension.lump_sum_self": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.pension.lump_sum_spouse": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.pension.monthly_payment_self": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.pension.monthly_payment_spouse": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.hsa.balance_self": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.hsa.annual_contribution_self": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.hsa.balance_spouse": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "retirement_assets.hsa.annual_contribution_spouse": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "life_insurance.employer_insurance_self.has": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "life_insurance.employer_insurance_self.multiple_of_salary": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "life_insurance.employer_insurance_spouse.has": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "life_insurance.employer_insurance_spouse.multiple_of_salary": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "life_insurance.umbrella_liability.has": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "life_insurance.umbrella_liability.amount": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "life_insurance.long_term_care.has": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "life_insurance.long_term_care.premium": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "equity_compensation": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.primary_residence.residence_name": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.primary_residence.owner": {
+      "has_value": true,
+      "confidence": 1.0
+    },
+    "real_estate.primary_residence.purchase_amount": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.primary_residence.current_market_value": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.primary_residence.anticipate_selling": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.primary_residence.anticipated_sale_date": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.primary_residence.property_tax_amount": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.primary_residence.mortgage.product_type": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.primary_residence.mortgage.annual_interest_rate": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.primary_residence.mortgage.remaining_balance": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.primary_residence.mortgage.purchase_date": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.primary_residence.mortgage.monthly_payment": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.secondary_residence.residence_name": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.secondary_residence.owner": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.secondary_residence.purchase_amount": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.secondary_residence.current_market_value": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.secondary_residence.anticipate_selling": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.secondary_residence.anticipated_sale_date": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.secondary_residence.property_tax_amount": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.secondary_residence.mortgage.product_type": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.secondary_residence.mortgage.annual_interest_rate": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.secondary_residence.mortgage.remaining_balance": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.secondary_residence.mortgage.purchase_date": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.secondary_residence.mortgage.monthly_payment": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.home_equity_loc.has": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.home_equity_loc.property": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.home_equity_loc.balance": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.home_equity_loc.annual_interest_rate": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.home_equity_loc.monthly_payment": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.home_equity_loc.available_credit_line": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.future_property_purchase.plans_to_buy": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.future_property_purchase.when": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.future_property_purchase.where": {
+      "has_value": false,
+      "confidence": 0.0
+    },
+    "real_estate.future_property_purchase.estimated_cost": {
+      "has_value": false,
+      "confidence": 0.0
+    }
+  },
+  "issues_for_review": [
+    {
+      "type": "empty_field",
+      "field": "general_information.client_1.mobile_phone",
+      "message": "Field 'general_information.client_1.mobile_phone' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "general_information.client_1.email",
+      "message": "Field 'general_information.client_1.email' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "general_information.client_2.name",
+      "message": "Field 'general_information.client_2.name' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "general_information.client_2.dob",
+      "message": "Field 'general_information.client_2.dob' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "general_information.client_2.mobile_phone",
+      "message": "Field 'general_information.client_2.mobile_phone' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "general_information.client_2.email",
+      "message": "Field 'general_information.client_2.email' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment_data.client_1.employer",
+      "message": "Field 'employment_data.client_1.employer' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment_data.client_1.additional_income_from",
+      "message": "Field 'employment_data.client_1.additional_income_from' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment_data.client_2.employer",
+      "message": "Field 'employment_data.client_2.employer' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment_data.client_2.annual_income",
+      "message": "Field 'employment_data.client_2.annual_income' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment_data.client_2.additional_income_from",
+      "message": "Field 'employment_data.client_2.additional_income_from' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment_data.client_2.estimated_retirement_date_age",
+      "message": "Field 'employment_data.client_2.estimated_retirement_date_age' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment_data.client_2.social_security_income_at_age",
+      "message": "Field 'employment_data.client_2.social_security_income_at_age' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment_data.retirement_income_needed.amount",
+      "message": "Field 'employment_data.retirement_income_needed.amount' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment_data.retirement_income_needed.before_or_after_tax",
+      "message": "Field 'employment_data.retirement_income_needed.before_or_after_tax' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.investment_timeline.short_term",
+      "message": "Field 'objectives.investment_timeline.short_term' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.investment_timeline.medium_term",
+      "message": "Field 'objectives.investment_timeline.medium_term' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.investment_timeline.long_term",
+      "message": "Field 'objectives.investment_timeline.long_term' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.risk_tolerance",
+      "message": "Field 'objectives.risk_tolerance' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.advisor_information.insurance_agent",
+      "message": "Field 'objectives.advisor_information.insurance_agent' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.advisor_information.cpa",
+      "message": "Field 'objectives.advisor_information.cpa' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.advisor_information.attorney",
+      "message": "Field 'objectives.advisor_information.attorney' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.advisor_information.other_financial_advisor",
+      "message": "Field 'objectives.advisor_information.other_financial_advisor' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.advisor_information.has_current_will",
+      "message": "Field 'objectives.advisor_information.has_current_will' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.advisor_information.has_current_trust",
+      "message": "Field 'objectives.advisor_information.has_current_trust' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.about_you",
+      "message": "Field 'objectives.about_you' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.401k_information.value_self",
+      "message": "Field 'retirement_assets.401k_information.value_self' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.401k_information.value_spouse",
+      "message": "Field 'retirement_assets.401k_information.value_spouse' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.401k_information.projected_annual_contribution_self",
+      "message": "Field 'retirement_assets.401k_information.projected_annual_contribution_self' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.401k_information.projected_annual_contribution_spouse",
+      "message": "Field 'retirement_assets.401k_information.projected_annual_contribution_spouse' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.401k_information.company_match_self_percent",
+      "message": "Field 'retirement_assets.401k_information.company_match_self_percent' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.401k_information.company_match_spouse_percent",
+      "message": "Field 'retirement_assets.401k_information.company_match_spouse_percent' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.401k_information.deferred_compensation_value_self",
+      "message": "Field 'retirement_assets.401k_information.deferred_compensation_value_self' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.401k_information.deferred_compensation_match_self_percent",
+      "message": "Field 'retirement_assets.401k_information.deferred_compensation_match_self_percent' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.401k_information.deferred_compensation_value_spouse",
+      "message": "Field 'retirement_assets.401k_information.deferred_compensation_value_spouse' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.401k_information.deferred_compensation_match_spouse_percent",
+      "message": "Field 'retirement_assets.401k_information.deferred_compensation_match_spouse_percent' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.retirement_account_balances.traditional_ira_self",
+      "message": "Field 'retirement_assets.retirement_account_balances.traditional_ira_self' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.retirement_account_balances.traditional_ira_spouse",
+      "message": "Field 'retirement_assets.retirement_account_balances.traditional_ira_spouse' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.retirement_account_balances.roth_ira_self",
+      "message": "Field 'retirement_assets.retirement_account_balances.roth_ira_self' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.retirement_account_balances.roth_ira_spouse",
+      "message": "Field 'retirement_assets.retirement_account_balances.roth_ira_spouse' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.retirement_account_balances.annual_ira_contribution_self.type",
+      "message": "Field 'retirement_assets.retirement_account_balances.annual_ira_contribution_self.type' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.retirement_account_balances.annual_ira_contribution_self.amount",
+      "message": "Field 'retirement_assets.retirement_account_balances.annual_ira_contribution_self.amount' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.retirement_account_balances.annual_ira_contribution_spouse.type",
+      "message": "Field 'retirement_assets.retirement_account_balances.annual_ira_contribution_spouse.type' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.retirement_account_balances.annual_ira_contribution_spouse.amount",
+      "message": "Field 'retirement_assets.retirement_account_balances.annual_ira_contribution_spouse.amount' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.retirement_account_balances.annuity_balance_self",
+      "message": "Field 'retirement_assets.retirement_account_balances.annuity_balance_self' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.retirement_account_balances.annuity_balance_spouse",
+      "message": "Field 'retirement_assets.retirement_account_balances.annuity_balance_spouse' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.pension.lump_sum_self",
+      "message": "Field 'retirement_assets.pension.lump_sum_self' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.pension.lump_sum_spouse",
+      "message": "Field 'retirement_assets.pension.lump_sum_spouse' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.pension.monthly_payment_self",
+      "message": "Field 'retirement_assets.pension.monthly_payment_self' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.pension.monthly_payment_spouse",
+      "message": "Field 'retirement_assets.pension.monthly_payment_spouse' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.hsa.balance_self",
+      "message": "Field 'retirement_assets.hsa.balance_self' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.hsa.annual_contribution_self",
+      "message": "Field 'retirement_assets.hsa.annual_contribution_self' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.hsa.balance_spouse",
+      "message": "Field 'retirement_assets.hsa.balance_spouse' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.hsa.annual_contribution_spouse",
+      "message": "Field 'retirement_assets.hsa.annual_contribution_spouse' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "life_insurance.employer_insurance_self.has",
+      "message": "Field 'life_insurance.employer_insurance_self.has' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "life_insurance.employer_insurance_self.multiple_of_salary",
+      "message": "Field 'life_insurance.employer_insurance_self.multiple_of_salary' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "life_insurance.employer_insurance_spouse.has",
+      "message": "Field 'life_insurance.employer_insurance_spouse.has' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "life_insurance.employer_insurance_spouse.multiple_of_salary",
+      "message": "Field 'life_insurance.employer_insurance_spouse.multiple_of_salary' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "life_insurance.umbrella_liability.has",
+      "message": "Field 'life_insurance.umbrella_liability.has' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "life_insurance.umbrella_liability.amount",
+      "message": "Field 'life_insurance.umbrella_liability.amount' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "life_insurance.long_term_care.has",
+      "message": "Field 'life_insurance.long_term_care.has' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "life_insurance.long_term_care.premium",
+      "message": "Field 'life_insurance.long_term_care.premium' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "equity_compensation",
+      "message": "Field 'equity_compensation' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.residence_name",
+      "message": "Field 'real_estate.primary_residence.residence_name' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.purchase_amount",
+      "message": "Field 'real_estate.primary_residence.purchase_amount' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.current_market_value",
+      "message": "Field 'real_estate.primary_residence.current_market_value' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.anticipate_selling",
+      "message": "Field 'real_estate.primary_residence.anticipate_selling' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.anticipated_sale_date",
+      "message": "Field 'real_estate.primary_residence.anticipated_sale_date' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.property_tax_amount",
+      "message": "Field 'real_estate.primary_residence.property_tax_amount' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.mortgage.product_type",
+      "message": "Field 'real_estate.primary_residence.mortgage.product_type' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.mortgage.annual_interest_rate",
+      "message": "Field 'real_estate.primary_residence.mortgage.annual_interest_rate' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.mortgage.remaining_balance",
+      "message": "Field 'real_estate.primary_residence.mortgage.remaining_balance' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.mortgage.purchase_date",
+      "message": "Field 'real_estate.primary_residence.mortgage.purchase_date' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.mortgage.monthly_payment",
+      "message": "Field 'real_estate.primary_residence.mortgage.monthly_payment' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.residence_name",
+      "message": "Field 'real_estate.secondary_residence.residence_name' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.owner",
+      "message": "Field 'real_estate.secondary_residence.owner' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.purchase_amount",
+      "message": "Field 'real_estate.secondary_residence.purchase_amount' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.current_market_value",
+      "message": "Field 'real_estate.secondary_residence.current_market_value' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.anticipate_selling",
+      "message": "Field 'real_estate.secondary_residence.anticipate_selling' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.anticipated_sale_date",
+      "message": "Field 'real_estate.secondary_residence.anticipated_sale_date' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.property_tax_amount",
+      "message": "Field 'real_estate.secondary_residence.property_tax_amount' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.mortgage.product_type",
+      "message": "Field 'real_estate.secondary_residence.mortgage.product_type' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.mortgage.annual_interest_rate",
+      "message": "Field 'real_estate.secondary_residence.mortgage.annual_interest_rate' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.mortgage.remaining_balance",
+      "message": "Field 'real_estate.secondary_residence.mortgage.remaining_balance' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.mortgage.purchase_date",
+      "message": "Field 'real_estate.secondary_residence.mortgage.purchase_date' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.mortgage.monthly_payment",
+      "message": "Field 'real_estate.secondary_residence.mortgage.monthly_payment' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.home_equity_loc.has",
+      "message": "Field 'real_estate.home_equity_loc.has' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.home_equity_loc.property",
+      "message": "Field 'real_estate.home_equity_loc.property' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.home_equity_loc.balance",
+      "message": "Field 'real_estate.home_equity_loc.balance' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.home_equity_loc.annual_interest_rate",
+      "message": "Field 'real_estate.home_equity_loc.annual_interest_rate' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.home_equity_loc.monthly_payment",
+      "message": "Field 'real_estate.home_equity_loc.monthly_payment' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.home_equity_loc.available_credit_line",
+      "message": "Field 'real_estate.home_equity_loc.available_credit_line' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.future_property_purchase.plans_to_buy",
+      "message": "Field 'real_estate.future_property_purchase.plans_to_buy' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.future_property_purchase.when",
+      "message": "Field 'real_estate.future_property_purchase.when' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.future_property_purchase.where",
+      "message": "Field 'real_estate.future_property_purchase.where' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.future_property_purchase.estimated_cost",
+      "message": "Field 'real_estate.future_property_purchase.estimated_cost' is empty",
+      "severity": "low"
+    }
+  ],
+  "validation": {
+    "is_valid": true,
+    "statistics": {
+      "total_fields": 106,
+      "populated_fields": 10,
+      "empty_fields": 96,
+      "population_rate": 0.09433962264150944,
+      "total_issues": 96,
+      "issue_types": {
+        "empty_field": 96
+      },
+      "severity_counts": {
+        "high": 0,
+        "medium": 0,
+        "low": 96
+      },
+      "average_confidence": 0.09433962264150944
+    }
+  },
+  "processing_info": {
+    "timestamp": "2025-12-10 17:46:37",
+    "processing_time_seconds": 30.87,
+    "model_used": "gpt-4o-mini"
+  }
+}

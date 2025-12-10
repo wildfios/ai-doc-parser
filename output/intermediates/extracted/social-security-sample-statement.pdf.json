@@ -1,0 +1,216 @@
+{
+  "personal_info": {
+    "name": "Wanda Worker",
+    "date_of_birth": "1962-04-05",
+    "full_retirement_age": 67,
+    "confidence": 1.0
+  },
+  "statement_date": "2025-04-28",
+  "retirement_benefits": {
+    "qualified": true,
+    "credits_needed": 40,
+    "estimated_annual_earnings": 54489,
+    "monthly_benefit_estimates": {
+      "62": 1465,
+      "63": 1569,
+      "64": 1681,
+      "65": 1827,
+      "66": 1973,
+      "67": 2119,
+      "68": 2291,
+      "69": 2463,
+      "70": 2634
+    },
+    "confidence": 1.0
+  },
+  "disability_benefits": {
+    "qualified": true,
+    "monthly_payment_if_disabled": 2083,
+    "confidence": 1.0
+  },
+  "survivors_benefits": {
+    "qualified": true,
+    "benefits": {
+      "minor_child": 1562,
+      "spouse_disabled_child": 1562,
+      "spouse_full_retirement_age": 2083,
+      "total_family_benefits_limit": 3802,
+      "one_time_death_benefit": 255
+    },
+    "confidence": 1.0
+  },
+  "medicare": {
+    "qualified_age": 65,
+    "confidence": 1.0
+  },
+  "earnings_record": {
+    "1971_1980": {
+      "social_security_taxed": 2142,
+      "medicare_taxed": 2142,
+      "confidence": 1.0
+    },
+    "1981_1990": {
+      "social_security_taxed": 87102,
+      "medicare_taxed": 87102,
+      "confidence": 1.0
+    },
+    "1991_2000": {
+      "social_security_taxed": 246069,
+      "medicare_taxed": 246069,
+      "confidence": 1.0
+    },
+    "2001": {
+      "social_security_taxed": 34147,
+      "medicare_taxed": 34147,
+      "confidence": 1.0
+    },
+    "2002": {
+      "social_security_taxed": 34846,
+      "medicare_taxed": 34846,
+      "confidence": 1.0
+    },
+    "2003": {
+      "social_security_taxed": 36021,
+      "medicare_taxed": 36021,
+      "confidence": 1.0
+    },
+    "2004": {
+      "social_security_taxed": 38032,
+      "medicare_taxed": 38032,
+      "confidence": 1.0
+    },
+    "2005": {
+      "social_security_taxed": 39711,
+      "medicare_taxed": 39711,
+      "confidence": 1.0
+    },
+    "2006": {
+      "social_security_taxed": 41829,
+      "medicare_taxed": 41829,
+      "confidence": 1.0
+    },
+    "2007": {
+      "social_security_taxed": 43971,
+      "medicare_taxed": 43971,
+      "confidence": 1.0
+    },
+    "2008": {
+      "social_security_taxed": 45170,
+      "medicare_taxed": 45170,
+      "confidence": 1.0
+    },
+    "2009": {
+      "social_security_taxed": 44603,
+      "medicare_taxed": 44603,
+      "confidence": 1.0
+    },
+    "2010": {
+      "social_security_taxed": 45666,
+      "medicare_taxed": 45847,
+      "confidence": 1.0
+    },
+    "2011": {
+      "social_security_taxed": 47093,
+      "medicare_taxed": 47093,
+      "confidence": 1.0
+    },
+    "2012": {
+      "social_security_taxed": 48560,
+      "medicare_taxed": 48560,
+      "confidence": 1.0
+    },
+    "2013": {
+      "social_security_taxed": 49095,
+      "medicare_taxed": 49095,
+      "confidence": 1.0
+    },
+    "2014": {
+      "social_security_taxed": 50605,
+      "medicare_taxed": 50605,
+      "confidence": 1.0
+    },
+    "2015": {
+      "social_security_taxed": 51996,
+      "medicare_taxed": 51996,
+      "confidence": 1.0
+    },
+    "2016": {
+      "social_security_taxed": 52108,
+      "medicare_taxed": 52108,
+      "confidence": 1.0
+    },
+    "2017": {
+      "social_security_taxed": 53251,
+      "medicare_taxed": 53251,
+      "confidence": 1.0
+    },
+    "2018": {
+      "social_security_taxed": 53966,
+      "medicare_taxed": 53966,
+      "confidence": 1.0
+    },
+    "2019": {
+      "social_security_taxed": 54559,
+      "medicare_taxed": 54559,
+      "confidence": 1.0
+    },
+    "2020": {
+      "social_security_taxed": 54489,
+      "medicare_taxed": 54489,
+      "confidence": 1.0
+    },
+    "2021": {
+      "social_security_taxed": "Not yet recorded",
+      "medicare_taxed": "Not yet recorded",
+      "confidence": 0.5
+    }
+  },
+  "taxes_paid": {
+    "social_security_taxes_paid": 75568,
+    "employer_social_security_taxes": 77498,
+    "medicare_taxes_paid": 18158,
+    "employer_medicare_taxes": 18158,
+    "confidence": 1.0
+  },
+  "important_notes": [
+    {
+      "note": "Social Security benefits are not intended to be your only source of retirement income.",
+      "confidence": 1.0
+    },
+    {
+      "note": "You need at least 10 years of work (40 credits) to qualify for retirement benefits.",
+      "confidence": 1.0
+    },
+    {
+      "note": "Benefits are adjusted through cost of living adjustments.",
+      "confidence": 1.0
+    },
+    {
+      "note": "If you get retirement or disability benefits, your spouse and children may qualify for benefits.",
+      "confidence": 1.0
+    },
+    {
+      "note": "If you and your spouse both work, use the my Social Security Retirement Calculator to estimate spousal benefits.",
+      "confidence": 1.0
+    },
+    {
+      "note": "If you are divorced and were married for 10 years, you may be able to claim benefits on your ex-spouse\u2019s record.",
+      "confidence": 1.0
+    },
+    {
+      "note": "If you receive a pension from earnings not covered by Social Security, your benefits may have been reduced prior to January 2024.",
+      "confidence": 1.0
+    }
+  ],
+  "contact_info": {
+    "medicare_contact_number": "1-800-MEDICARE (1-800-633-4227)",
+    "medicare_tty_number": "1-877-486-2048",
+    "social_security_contact_number": "1-800-772-1213",
+    "confidence": 1.0
+  },
+  "website_links": {
+    "social_security": "ssa.gov",
+    "medicare": "medicare.gov",
+    "confidence": 1.0
+  }
+}

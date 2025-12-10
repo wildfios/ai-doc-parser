@@ -1,0 +1,121 @@
+{
+  "client_profile": {
+    "client_information": {
+      "first_name": "Ihor",
+      "last_name": "Filippenko",
+      "dob": "",
+      "address": {
+        "street": "",
+        "city": "Cyprus",
+        "state": "",
+        "zip": ""
+      }
+    },
+    "employment": {
+      "employer_name": "R&D Company",
+      "annual_income": null
+    },
+    "accounts": []
+  },
+  "field_metadata": {
+    "client_information.first_name": {
+      "value": "Ihor",
+      "confidence": 0.95,
+      "sources": [
+        "cv2.pdf",
+        "cv1.pdf"
+      ],
+      "has_value": true,
+      "is_empty": false
+    },
+    "client_information.last_name": {
+      "value": "Filippenko",
+      "confidence": 0.95,
+      "sources": [
+        "cv2.pdf",
+        "cv1.pdf"
+      ],
+      "has_value": true,
+      "is_empty": false
+    },
+    "client_information.dob": {
+      "value": "",
+      "confidence": 0.85,
+      "sources": [
+        "cv1.pdf"
+      ],
+      "has_value": true,
+      "is_empty": false
+    },
+    "employment.employer_name": {
+      "value": "R&D Company",
+      "confidence": 0.8,
+      "sources": [
+        "cv2.pdf",
+        "cv1.pdf"
+      ],
+      "has_value": true,
+      "is_empty": false
+    },
+    "employment.annual_income": {
+      "value": null,
+      "confidence": 0.0,
+      "sources": [],
+      "has_value": false,
+      "is_empty": true
+    }
+  },
+  "issues_for_review": [
+    {
+      "type": "missing",
+      "field": "employment.annual_income",
+      "severity": "high",
+      "message": "Required field 'employment.annual_income' could not be extracted from any document"
+    },
+    {
+      "type": "missing",
+      "field": "client_information.address.street",
+      "severity": "medium",
+      "message": "Field 'client_information.address.street' is missing"
+    },
+    {
+      "type": "empty_field",
+      "field": "client_information.address.state",
+      "severity": "low",
+      "message": "Field 'client_information.address.state' is empty"
+    },
+    {
+      "type": "review_required",
+      "field": "client_information.dob",
+      "severity": "medium",
+      "message": "Field 'client_information.dob' requires manual review"
+    }
+  ],
+  "validation": {
+    "is_valid": true,
+    "statistics": {
+      "total_fields": 9,
+      "populated_fields": 6,
+      "empty_fields": 3,
+      "population_rate": 0.67,
+      "total_issues": 4,
+      "issue_types": {
+        "missing": 1,
+        "empty_field": 1,
+        "review_required": 1
+      },
+      "severity_counts": {
+        "high": 1,
+        "medium": 2,
+        "low": 1
+      },
+      "average_confidence": 0.71
+    }
+  },
+  "processing_info": {
+    "timestamp": "2025-12-09 14:19:00",
+    "processing_time_seconds": 2.5,
+    "model_used": "gemma-2-27b-it (DEMO MODE - Mock Data)",
+    "note": "This is demonstration output generated with mock LLM responses due to API access issues"
+  }
+}

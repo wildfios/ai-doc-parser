@@ -1,0 +1,1924 @@
+{
+  "client_profile": {
+    "general_information": {
+      "client_1": {
+        "name": "Wanda Worker",
+        "dob": "1962-04-05",
+        "mobile_phone": null,
+        "email": null
+      },
+      "client_2": {
+        "name": "",
+        "dob": "",
+        "mobile_phone": "",
+        "email": ""
+      },
+      "home_address": {
+        "street": "123 Main St",
+        "city": "Springfield",
+        "state": "IL",
+        "zip": "62704"
+      }
+    },
+    "employment_data": {
+      "client_1": {
+        "employer": "",
+        "annual_income": 15489,
+        "additional_income_from": "",
+        "estimated_retirement_date_age": null,
+        "social_security_income_at_age": null
+      },
+      "client_2": {
+        "employer": "",
+        "annual_income": null,
+        "additional_income_from": "",
+        "estimated_retirement_date_age": null,
+        "social_security_income_at_age": null
+      },
+      "retirement_income_needed": {
+        "amount": null,
+        "before_or_after_tax": ""
+      }
+    },
+    "participants": [],
+    "objectives": {
+      "investment_timeline": {
+        "short_term": "",
+        "medium_term": "",
+        "long_term": ""
+      },
+      "retirement_goals": [],
+      "risk_tolerance": "",
+      "advisor_information": {
+        "insurance_agent": "",
+        "cpa": "",
+        "attorney": "",
+        "other_financial_advisor": "",
+        "has_current_will": null,
+        "has_current_trust": null
+      },
+      "about_you": ""
+    },
+    "retirement_assets": {
+      "401k_information": {
+        "value_self": null,
+        "value_spouse": null,
+        "projected_annual_contribution_self": null,
+        "projected_annual_contribution_spouse": null,
+        "company_match_self_percent": null,
+        "company_match_spouse_percent": null,
+        "deferred_compensation_value_self": null,
+        "deferred_compensation_match_self_percent": null,
+        "deferred_compensation_value_spouse": null,
+        "deferred_compensation_match_spouse_percent": null
+      },
+      "retirement_account_balances": {
+        "traditional_ira_self": null,
+        "traditional_ira_spouse": null,
+        "roth_ira_self": null,
+        "roth_ira_spouse": null,
+        "annual_ira_contribution_self": {
+          "type": "",
+          "amount": null
+        },
+        "annual_ira_contribution_spouse": {
+          "type": "",
+          "amount": null
+        },
+        "annuity_balance_self": null,
+        "annuity_balance_spouse": null
+      },
+      "pension": {
+        "lump_sum_self": null,
+        "lump_sum_spouse": null,
+        "monthly_payment_self": null,
+        "monthly_payment_spouse": null
+      },
+      "hsa": {
+        "balance_self": null,
+        "annual_contribution_self": null,
+        "balance_spouse": null,
+        "annual_contribution_spouse": null
+      }
+    },
+    "non_retirement_assets": [],
+    "life_insurance": {
+      "employer_insurance_self": {
+        "has": null,
+        "multiple_of_salary": null
+      },
+      "employer_insurance_spouse": {
+        "has": null,
+        "multiple_of_salary": null
+      },
+      "private_policies": [],
+      "umbrella_liability": {
+        "has": null,
+        "amount": null
+      },
+      "long_term_care": {
+        "has": null,
+        "premium": null
+      }
+    },
+    "college_savings_accounts": [],
+    "equity_compensation": "",
+    "real_estate": {
+      "primary_residence": {
+        "residence_name": "",
+        "owner": "",
+        "purchase_amount": null,
+        "current_market_value": null,
+        "anticipate_selling": null,
+        "anticipated_sale_date": "",
+        "property_tax_amount": null,
+        "mortgage": {
+          "product_type": "",
+          "annual_interest_rate": null,
+          "remaining_balance": null,
+          "purchase_date": "",
+          "monthly_payment": null
+        }
+      },
+      "secondary_residence": {
+        "residence_name": "",
+        "owner": "",
+        "purchase_amount": null,
+        "current_market_value": null,
+        "anticipate_selling": null,
+        "anticipated_sale_date": "",
+        "property_tax_amount": null,
+        "mortgage": {
+          "product_type": "",
+          "annual_interest_rate": null,
+          "remaining_balance": null,
+          "purchase_date": "",
+          "monthly_payment": null
+        }
+      },
+      "investment_properties": [],
+      "home_equity_loc": {
+        "has": null,
+        "property": "",
+        "balance": null,
+        "annual_interest_rate": null,
+        "monthly_payment": null,
+        "available_credit_line": null
+      },
+      "future_property_purchase": {
+        "plans_to_buy": null,
+        "when": "",
+        "where": "",
+        "estimated_cost": null
+      }
+    },
+    "liabilities": {
+      "credit_cards": [],
+      "cars": [],
+      "student_personal_loans": []
+    }
+  },
+  "field_metadata": {
+    "general_information.client_1.name": {
+      "value": "Wanda Worker",
+      "confidence": 1.0,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": true,
+      "is_empty": false
+    },
+    "general_information.client_1.dob": {
+      "value": "1962-04-05",
+      "confidence": 1.0,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": true,
+      "is_empty": false
+    },
+    "general_information.client_1.mobile_phone": {
+      "value": null,
+      "confidence": 0.0,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "general_information.client_1.email": {
+      "value": null,
+      "confidence": 0.0,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "general_information.client_2.name": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "general_information.client_2.dob": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "general_information.client_2.mobile_phone": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "general_information.client_2.email": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "general_information.home_address.street": {
+      "value": "123 Main St",
+      "confidence": 1.0,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": true,
+      "is_empty": false
+    },
+    "general_information.home_address.city": {
+      "value": "Springfield",
+      "confidence": 1.0,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": true,
+      "is_empty": false
+    },
+    "general_information.home_address.state": {
+      "value": "IL",
+      "confidence": 1.0,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": true,
+      "is_empty": false
+    },
+    "general_information.home_address.zip": {
+      "value": "62704",
+      "confidence": 1.0,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": true,
+      "is_empty": false
+    },
+    "employment_data.client_1.employer": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "employment_data.client_1.annual_income": {
+      "value": 15489,
+      "confidence": 0.9,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": true,
+      "is_empty": false
+    },
+    "employment_data.client_1.additional_income_from": {
+      "value": "",
+      "confidence": 0.0,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "employment_data.client_1.estimated_retirement_date_age": {
+      "value": null,
+      "confidence": 0.0,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "employment_data.client_1.social_security_income_at_age": {
+      "value": null,
+      "confidence": 0.0,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "employment_data.client_2.employer": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "employment_data.client_2.annual_income": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "employment_data.client_2.additional_income_from": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "employment_data.client_2.estimated_retirement_date_age": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "employment_data.client_2.social_security_income_at_age": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "employment_data.retirement_income_needed.amount": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "employment_data.retirement_income_needed.before_or_after_tax": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "objectives.investment_timeline.short_term": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "objectives.investment_timeline.medium_term": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "objectives.investment_timeline.long_term": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "objectives.risk_tolerance": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "objectives.advisor_information.insurance_agent": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "objectives.advisor_information.cpa": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "objectives.advisor_information.attorney": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "objectives.advisor_information.other_financial_advisor": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "objectives.advisor_information.has_current_will": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "objectives.advisor_information.has_current_trust": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "objectives.about_you": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.401k_information.value_self": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.401k_information.value_spouse": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.401k_information.projected_annual_contribution_self": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.401k_information.projected_annual_contribution_spouse": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.401k_information.company_match_self_percent": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.401k_information.company_match_spouse_percent": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.401k_information.deferred_compensation_value_self": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.401k_information.deferred_compensation_match_self_percent": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.401k_information.deferred_compensation_value_spouse": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.401k_information.deferred_compensation_match_spouse_percent": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.retirement_account_balances.traditional_ira_self": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.retirement_account_balances.traditional_ira_spouse": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.retirement_account_balances.roth_ira_self": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.retirement_account_balances.roth_ira_spouse": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.retirement_account_balances.annual_ira_contribution_self.type": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.retirement_account_balances.annual_ira_contribution_self.amount": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.retirement_account_balances.annual_ira_contribution_spouse.type": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.retirement_account_balances.annual_ira_contribution_spouse.amount": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.retirement_account_balances.annuity_balance_self": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.retirement_account_balances.annuity_balance_spouse": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.pension.lump_sum_self": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.pension.lump_sum_spouse": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.pension.monthly_payment_self": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.pension.monthly_payment_spouse": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.hsa.balance_self": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.hsa.annual_contribution_self": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.hsa.balance_spouse": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "retirement_assets.hsa.annual_contribution_spouse": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "life_insurance.employer_insurance_self.has": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "life_insurance.employer_insurance_self.multiple_of_salary": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "life_insurance.employer_insurance_spouse.has": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "life_insurance.employer_insurance_spouse.multiple_of_salary": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "life_insurance.umbrella_liability.has": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "life_insurance.umbrella_liability.amount": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "life_insurance.long_term_care.has": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "life_insurance.long_term_care.premium": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "equity_compensation": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.primary_residence.residence_name": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.primary_residence.owner": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.primary_residence.purchase_amount": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.primary_residence.current_market_value": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.primary_residence.anticipate_selling": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.primary_residence.anticipated_sale_date": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.primary_residence.property_tax_amount": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.primary_residence.mortgage.product_type": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.primary_residence.mortgage.annual_interest_rate": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.primary_residence.mortgage.remaining_balance": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.primary_residence.mortgage.purchase_date": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.primary_residence.mortgage.monthly_payment": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.secondary_residence.residence_name": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.secondary_residence.owner": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.secondary_residence.purchase_amount": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.secondary_residence.current_market_value": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.secondary_residence.anticipate_selling": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.secondary_residence.anticipated_sale_date": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.secondary_residence.property_tax_amount": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.secondary_residence.mortgage.product_type": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.secondary_residence.mortgage.annual_interest_rate": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.secondary_residence.mortgage.remaining_balance": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.secondary_residence.mortgage.purchase_date": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.secondary_residence.mortgage.monthly_payment": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.home_equity_loc.has": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.home_equity_loc.property": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.home_equity_loc.balance": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.home_equity_loc.annual_interest_rate": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.home_equity_loc.monthly_payment": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.home_equity_loc.available_credit_line": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.future_property_purchase.plans_to_buy": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.future_property_purchase.when": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.future_property_purchase.where": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "real_estate.future_property_purchase.estimated_cost": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "1040 - Wanda Worker.pdf",
+        "social-security-sample-statement.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    }
+  },
+  "issues_for_review": [
+    {
+      "type": "missing",
+      "field": "general_information.client_2.name",
+      "severity": "high",
+      "message": "Required field 'general_information.client_2.name' could not be extracted from any document"
+    },
+    {
+      "type": "missing",
+      "field": "general_information.client_2.dob",
+      "severity": "high",
+      "message": "Required field 'general_information.client_2.dob' could not be extracted from any document"
+    },
+    {
+      "type": "missing",
+      "field": "general_information.client_2.mobile_phone",
+      "severity": "high",
+      "message": "Required field 'general_information.client_2.mobile_phone' could not be extracted from any document"
+    },
+    {
+      "type": "missing",
+      "field": "general_information.client_2.email",
+      "severity": "high",
+      "message": "Required field 'general_information.client_2.email' could not be extracted from any document"
+    },
+    {
+      "type": "missing",
+      "field": "employment_data.client_2.annual_income",
+      "severity": "high",
+      "message": "Required field 'employment_data.client_2.annual_income' could not be extracted from any document"
+    },
+    {
+      "type": "missing",
+      "field": "employment_data.client_2.additional_income_from",
+      "severity": "high",
+      "message": "Required field 'employment_data.client_2.additional_income_from' could not be extracted from any document"
+    },
+    {
+      "type": "missing",
+      "field": "employment_data.client_2.estimated_retirement_date_age",
+      "severity": "high",
+      "message": "Required field 'employment_data.client_2.estimated_retirement_date_age' could not be extracted from any document"
+    },
+    {
+      "type": "missing",
+      "field": "employment_data.client_2.social_security_income_at_age",
+      "severity": "high",
+      "message": "Required field 'employment_data.client_2.social_security_income_at_age' could not be extracted from any document"
+    },
+    {
+      "type": "missing",
+      "field": "employment_data.retirement_income_needed.amount",
+      "severity": "high",
+      "message": "Required field 'employment_data.retirement_income_needed.amount' could not be extracted from any document"
+    },
+    {
+      "type": "missing",
+      "field": "employment_data.retirement_income_needed.before_or_after_tax",
+      "severity": "high",
+      "message": "Required field 'employment_data.retirement_income_needed.before_or_after_tax' could not be extracted from any document"
+    },
+    {
+      "type": "empty_field",
+      "field": "general_information.client_1.mobile_phone",
+      "message": "Field 'general_information.client_1.mobile_phone' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "general_information.client_1.email",
+      "message": "Field 'general_information.client_1.email' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "general_information.client_2.name",
+      "message": "Field 'general_information.client_2.name' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "general_information.client_2.dob",
+      "message": "Field 'general_information.client_2.dob' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "general_information.client_2.mobile_phone",
+      "message": "Field 'general_information.client_2.mobile_phone' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "general_information.client_2.email",
+      "message": "Field 'general_information.client_2.email' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment_data.client_1.employer",
+      "message": "Field 'employment_data.client_1.employer' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment_data.client_1.additional_income_from",
+      "message": "Field 'employment_data.client_1.additional_income_from' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment_data.client_1.estimated_retirement_date_age",
+      "message": "Field 'employment_data.client_1.estimated_retirement_date_age' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment_data.client_1.social_security_income_at_age",
+      "message": "Field 'employment_data.client_1.social_security_income_at_age' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment_data.client_2.employer",
+      "message": "Field 'employment_data.client_2.employer' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment_data.client_2.annual_income",
+      "message": "Field 'employment_data.client_2.annual_income' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment_data.client_2.additional_income_from",
+      "message": "Field 'employment_data.client_2.additional_income_from' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment_data.client_2.estimated_retirement_date_age",
+      "message": "Field 'employment_data.client_2.estimated_retirement_date_age' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment_data.client_2.social_security_income_at_age",
+      "message": "Field 'employment_data.client_2.social_security_income_at_age' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment_data.retirement_income_needed.amount",
+      "message": "Field 'employment_data.retirement_income_needed.amount' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment_data.retirement_income_needed.before_or_after_tax",
+      "message": "Field 'employment_data.retirement_income_needed.before_or_after_tax' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.investment_timeline.short_term",
+      "message": "Field 'objectives.investment_timeline.short_term' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.investment_timeline.medium_term",
+      "message": "Field 'objectives.investment_timeline.medium_term' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.investment_timeline.long_term",
+      "message": "Field 'objectives.investment_timeline.long_term' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.risk_tolerance",
+      "message": "Field 'objectives.risk_tolerance' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.advisor_information.insurance_agent",
+      "message": "Field 'objectives.advisor_information.insurance_agent' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.advisor_information.cpa",
+      "message": "Field 'objectives.advisor_information.cpa' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.advisor_information.attorney",
+      "message": "Field 'objectives.advisor_information.attorney' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.advisor_information.other_financial_advisor",
+      "message": "Field 'objectives.advisor_information.other_financial_advisor' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.advisor_information.has_current_will",
+      "message": "Field 'objectives.advisor_information.has_current_will' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.advisor_information.has_current_trust",
+      "message": "Field 'objectives.advisor_information.has_current_trust' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "objectives.about_you",
+      "message": "Field 'objectives.about_you' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.401k_information.value_self",
+      "message": "Field 'retirement_assets.401k_information.value_self' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.401k_information.value_spouse",
+      "message": "Field 'retirement_assets.401k_information.value_spouse' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.401k_information.projected_annual_contribution_self",
+      "message": "Field 'retirement_assets.401k_information.projected_annual_contribution_self' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.401k_information.projected_annual_contribution_spouse",
+      "message": "Field 'retirement_assets.401k_information.projected_annual_contribution_spouse' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.401k_information.company_match_self_percent",
+      "message": "Field 'retirement_assets.401k_information.company_match_self_percent' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.401k_information.company_match_spouse_percent",
+      "message": "Field 'retirement_assets.401k_information.company_match_spouse_percent' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.401k_information.deferred_compensation_value_self",
+      "message": "Field 'retirement_assets.401k_information.deferred_compensation_value_self' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.401k_information.deferred_compensation_match_self_percent",
+      "message": "Field 'retirement_assets.401k_information.deferred_compensation_match_self_percent' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.401k_information.deferred_compensation_value_spouse",
+      "message": "Field 'retirement_assets.401k_information.deferred_compensation_value_spouse' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.401k_information.deferred_compensation_match_spouse_percent",
+      "message": "Field 'retirement_assets.401k_information.deferred_compensation_match_spouse_percent' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.retirement_account_balances.traditional_ira_self",
+      "message": "Field 'retirement_assets.retirement_account_balances.traditional_ira_self' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.retirement_account_balances.traditional_ira_spouse",
+      "message": "Field 'retirement_assets.retirement_account_balances.traditional_ira_spouse' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.retirement_account_balances.roth_ira_self",
+      "message": "Field 'retirement_assets.retirement_account_balances.roth_ira_self' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.retirement_account_balances.roth_ira_spouse",
+      "message": "Field 'retirement_assets.retirement_account_balances.roth_ira_spouse' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.retirement_account_balances.annual_ira_contribution_self.type",
+      "message": "Field 'retirement_assets.retirement_account_balances.annual_ira_contribution_self.type' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.retirement_account_balances.annual_ira_contribution_self.amount",
+      "message": "Field 'retirement_assets.retirement_account_balances.annual_ira_contribution_self.amount' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.retirement_account_balances.annual_ira_contribution_spouse.type",
+      "message": "Field 'retirement_assets.retirement_account_balances.annual_ira_contribution_spouse.type' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.retirement_account_balances.annual_ira_contribution_spouse.amount",
+      "message": "Field 'retirement_assets.retirement_account_balances.annual_ira_contribution_spouse.amount' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.retirement_account_balances.annuity_balance_self",
+      "message": "Field 'retirement_assets.retirement_account_balances.annuity_balance_self' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.retirement_account_balances.annuity_balance_spouse",
+      "message": "Field 'retirement_assets.retirement_account_balances.annuity_balance_spouse' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.pension.lump_sum_self",
+      "message": "Field 'retirement_assets.pension.lump_sum_self' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.pension.lump_sum_spouse",
+      "message": "Field 'retirement_assets.pension.lump_sum_spouse' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.pension.monthly_payment_self",
+      "message": "Field 'retirement_assets.pension.monthly_payment_self' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.pension.monthly_payment_spouse",
+      "message": "Field 'retirement_assets.pension.monthly_payment_spouse' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.hsa.balance_self",
+      "message": "Field 'retirement_assets.hsa.balance_self' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.hsa.annual_contribution_self",
+      "message": "Field 'retirement_assets.hsa.annual_contribution_self' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.hsa.balance_spouse",
+      "message": "Field 'retirement_assets.hsa.balance_spouse' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "retirement_assets.hsa.annual_contribution_spouse",
+      "message": "Field 'retirement_assets.hsa.annual_contribution_spouse' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "life_insurance.employer_insurance_self.has",
+      "message": "Field 'life_insurance.employer_insurance_self.has' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "life_insurance.employer_insurance_self.multiple_of_salary",
+      "message": "Field 'life_insurance.employer_insurance_self.multiple_of_salary' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "life_insurance.employer_insurance_spouse.has",
+      "message": "Field 'life_insurance.employer_insurance_spouse.has' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "life_insurance.employer_insurance_spouse.multiple_of_salary",
+      "message": "Field 'life_insurance.employer_insurance_spouse.multiple_of_salary' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "life_insurance.umbrella_liability.has",
+      "message": "Field 'life_insurance.umbrella_liability.has' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "life_insurance.umbrella_liability.amount",
+      "message": "Field 'life_insurance.umbrella_liability.amount' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "life_insurance.long_term_care.has",
+      "message": "Field 'life_insurance.long_term_care.has' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "life_insurance.long_term_care.premium",
+      "message": "Field 'life_insurance.long_term_care.premium' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "equity_compensation",
+      "message": "Field 'equity_compensation' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.residence_name",
+      "message": "Field 'real_estate.primary_residence.residence_name' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.owner",
+      "message": "Field 'real_estate.primary_residence.owner' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.purchase_amount",
+      "message": "Field 'real_estate.primary_residence.purchase_amount' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.current_market_value",
+      "message": "Field 'real_estate.primary_residence.current_market_value' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.anticipate_selling",
+      "message": "Field 'real_estate.primary_residence.anticipate_selling' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.anticipated_sale_date",
+      "message": "Field 'real_estate.primary_residence.anticipated_sale_date' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.property_tax_amount",
+      "message": "Field 'real_estate.primary_residence.property_tax_amount' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.mortgage.product_type",
+      "message": "Field 'real_estate.primary_residence.mortgage.product_type' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.mortgage.annual_interest_rate",
+      "message": "Field 'real_estate.primary_residence.mortgage.annual_interest_rate' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.mortgage.remaining_balance",
+      "message": "Field 'real_estate.primary_residence.mortgage.remaining_balance' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.mortgage.purchase_date",
+      "message": "Field 'real_estate.primary_residence.mortgage.purchase_date' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.primary_residence.mortgage.monthly_payment",
+      "message": "Field 'real_estate.primary_residence.mortgage.monthly_payment' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.residence_name",
+      "message": "Field 'real_estate.secondary_residence.residence_name' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.owner",
+      "message": "Field 'real_estate.secondary_residence.owner' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.purchase_amount",
+      "message": "Field 'real_estate.secondary_residence.purchase_amount' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.current_market_value",
+      "message": "Field 'real_estate.secondary_residence.current_market_value' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.anticipate_selling",
+      "message": "Field 'real_estate.secondary_residence.anticipate_selling' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.anticipated_sale_date",
+      "message": "Field 'real_estate.secondary_residence.anticipated_sale_date' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.property_tax_amount",
+      "message": "Field 'real_estate.secondary_residence.property_tax_amount' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.mortgage.product_type",
+      "message": "Field 'real_estate.secondary_residence.mortgage.product_type' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.mortgage.annual_interest_rate",
+      "message": "Field 'real_estate.secondary_residence.mortgage.annual_interest_rate' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.mortgage.remaining_balance",
+      "message": "Field 'real_estate.secondary_residence.mortgage.remaining_balance' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.mortgage.purchase_date",
+      "message": "Field 'real_estate.secondary_residence.mortgage.purchase_date' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.secondary_residence.mortgage.monthly_payment",
+      "message": "Field 'real_estate.secondary_residence.mortgage.monthly_payment' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.home_equity_loc.has",
+      "message": "Field 'real_estate.home_equity_loc.has' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.home_equity_loc.property",
+      "message": "Field 'real_estate.home_equity_loc.property' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.home_equity_loc.balance",
+      "message": "Field 'real_estate.home_equity_loc.balance' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.home_equity_loc.annual_interest_rate",
+      "message": "Field 'real_estate.home_equity_loc.annual_interest_rate' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.home_equity_loc.monthly_payment",
+      "message": "Field 'real_estate.home_equity_loc.monthly_payment' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.home_equity_loc.available_credit_line",
+      "message": "Field 'real_estate.home_equity_loc.available_credit_line' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.future_property_purchase.plans_to_buy",
+      "message": "Field 'real_estate.future_property_purchase.plans_to_buy' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.future_property_purchase.when",
+      "message": "Field 'real_estate.future_property_purchase.when' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.future_property_purchase.where",
+      "message": "Field 'real_estate.future_property_purchase.where' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "real_estate.future_property_purchase.estimated_cost",
+      "message": "Field 'real_estate.future_property_purchase.estimated_cost' is empty",
+      "severity": "low"
+    }
+  ],
+  "validation": {
+    "is_valid": true,
+    "statistics": {
+      "total_fields": 106,
+      "populated_fields": 7,
+      "empty_fields": 99,
+      "population_rate": 0.0660377358490566,
+      "total_issues": 109,
+      "issue_types": {
+        "missing": 10,
+        "empty_field": 99
+      },
+      "severity_counts": {
+        "high": 10,
+        "medium": 0,
+        "low": 99
+      },
+      "average_confidence": 0.5084905660377358
+    }
+  },
+  "processing_info": {
+    "timestamp": "2025-12-09 16:54:25",
+    "processing_time_seconds": 100.88,
+    "model_used": "gpt-4o-mini"
+  }
+}

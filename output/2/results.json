@@ -1,0 +1,211 @@
+{
+  "client_profile": {
+    "client_information": {
+      "first_name": "",
+      "last_name": "",
+      "dob": "",
+      "address": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "zip": ""
+      }
+    },
+    "employment": {
+      "employer_name": "",
+      "annual_income": null
+    },
+    "accounts": []
+  },
+  "field_metadata": {
+    "client_information.first_name": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "cv2.pdf",
+        "cv1.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "client_information.last_name": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "cv2.pdf",
+        "cv1.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "client_information.dob": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "cv2.pdf",
+        "cv1.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "client_information.address.street": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "cv2.pdf",
+        "cv1.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "client_information.address.city": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "cv2.pdf",
+        "cv1.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "client_information.address.state": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "cv2.pdf",
+        "cv1.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "client_information.address.zip": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "cv2.pdf",
+        "cv1.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "employment.employer_name": {
+      "value": "",
+      "confidence": 0.5,
+      "sources": [
+        "cv2.pdf",
+        "cv1.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    },
+    "employment.annual_income": {
+      "value": null,
+      "confidence": 0.5,
+      "sources": [
+        "cv2.pdf",
+        "cv1.pdf"
+      ],
+      "has_value": false,
+      "is_empty": true
+    }
+  },
+  "issues_for_review": [
+    {
+      "type": "empty_important_field",
+      "field": "client_information.first_name",
+      "severity": "high",
+      "message": "Important field 'client_information.first_name' is empty"
+    },
+    {
+      "type": "empty_important_field",
+      "field": "client_information.last_name",
+      "severity": "high",
+      "message": "Important field 'client_information.last_name' is empty"
+    },
+    {
+      "type": "empty_important_field",
+      "field": "client_information.dob",
+      "severity": "high",
+      "message": "Important field 'client_information.dob' is empty"
+    },
+    {
+      "type": "empty_field",
+      "field": "client_information.first_name",
+      "message": "Field 'client_information.first_name' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "client_information.last_name",
+      "message": "Field 'client_information.last_name' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "client_information.dob",
+      "message": "Field 'client_information.dob' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "client_information.address.street",
+      "message": "Field 'client_information.address.street' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "client_information.address.city",
+      "message": "Field 'client_information.address.city' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "client_information.address.state",
+      "message": "Field 'client_information.address.state' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "client_information.address.zip",
+      "message": "Field 'client_information.address.zip' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment.employer_name",
+      "message": "Field 'employment.employer_name' is empty",
+      "severity": "low"
+    },
+    {
+      "type": "empty_field",
+      "field": "employment.annual_income",
+      "message": "Field 'employment.annual_income' is empty",
+      "severity": "low"
+    }
+  ],
+  "validation": {
+    "is_valid": true,
+    "statistics": {
+      "total_fields": 9,
+      "populated_fields": 0,
+      "empty_fields": 9,
+      "population_rate": 0.0,
+      "total_issues": 12,
+      "issue_types": {
+        "empty_important_field": 3,
+        "empty_field": 9
+      },
+      "severity_counts": {
+        "high": 3,
+        "medium": 0,
+        "low": 9
+      },
+      "average_confidence": 0.5
+    }
+  },
+  "processing_info": {
+    "timestamp": "2025-12-09 14:42:06",
+    "processing_time_seconds": 61.75,
+    "model_used": "models/gemini-2.5-flash"
+  }
+}

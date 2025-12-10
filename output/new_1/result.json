@@ -1,0 +1,179 @@
+{
+  "general_information": {
+    "client_1": {
+      "name": "Wanda Worker",
+      "dob": "1962-04-05",
+      "mobile_phone": "",
+      "email": ""
+    },
+    "client_2": {
+      "name": "",
+      "dob": "",
+      "mobile_phone": "",
+      "email": ""
+    },
+    "home_address": {
+      "street": "123 Main St",
+      "city": "Springfield",
+      "state": "IL",
+      "zip": "62704"
+    }
+  },
+  "employment_data": {
+    "client_1": {
+      "employer": "",
+      "annual_income": 54489,
+      "additional_income_from": "",
+      "estimated_retirement_date_age": 67,
+      "social_security_income_at_age": 2083
+    },
+    "client_2": {
+      "employer": "",
+      "annual_income": null,
+      "additional_income_from": "",
+      "estimated_retirement_date_age": null,
+      "social_security_income_at_age": null
+    },
+    "retirement_income_needed": {
+      "amount": null,
+      "before_or_after_tax": ""
+    }
+  },
+  "participants": [],
+  "objectives": {
+    "investment_timeline": {
+      "short_term": "",
+      "medium_term": "",
+      "long_term": ""
+    },
+    "retirement_goals": [],
+    "risk_tolerance": "",
+    "advisor_information": {
+      "insurance_agent": "",
+      "cpa": "",
+      "attorney": "",
+      "other_financial_advisor": "",
+      "has_current_will": null,
+      "has_current_trust": null
+    },
+    "about_you": ""
+  },
+  "retirement_assets": {
+    "401k_information": {
+      "value_self": null,
+      "value_spouse": null,
+      "projected_annual_contribution_self": null,
+      "projected_annual_contribution_spouse": null,
+      "company_match_self_percent": null,
+      "company_match_spouse_percent": null,
+      "deferred_compensation_value_self": null,
+      "deferred_compensation_match_self_percent": null,
+      "deferred_compensation_value_spouse": null,
+      "deferred_compensation_match_spouse_percent": null
+    },
+    "retirement_account_balances": {
+      "traditional_ira_self": null,
+      "traditional_ira_spouse": null,
+      "roth_ira_self": null,
+      "roth_ira_spouse": null,
+      "annual_ira_contribution_self": {
+        "type": "",
+        "amount": null
+      },
+      "annual_ira_contribution_spouse": {
+        "type": "",
+        "amount": null
+      },
+      "annuity_balance_self": null,
+      "annuity_balance_spouse": null
+    },
+    "pension": {
+      "lump_sum_self": null,
+      "lump_sum_spouse": null,
+      "monthly_payment_self": null,
+      "monthly_payment_spouse": null
+    },
+    "hsa": {
+      "balance_self": null,
+      "annual_contribution_self": null,
+      "balance_spouse": null,
+      "annual_contribution_spouse": null
+    }
+  },
+  "non_retirement_assets": [],
+  "life_insurance": {
+    "employer_insurance_self": {
+      "has": null,
+      "multiple_of_salary": null
+    },
+    "employer_insurance_spouse": {
+      "has": null,
+      "multiple_of_salary": null
+    },
+    "private_policies": [],
+    "umbrella_liability": {
+      "has": null,
+      "amount": null
+    },
+    "long_term_care": {
+      "has": null,
+      "premium": null
+    }
+  },
+  "college_savings_accounts": [],
+  "equity_compensation": "",
+  "real_estate": {
+    "primary_residence": {
+      "residence_name": "",
+      "owner": "",
+      "purchase_amount": null,
+      "current_market_value": null,
+      "anticipate_selling": null,
+      "anticipated_sale_date": "",
+      "property_tax_amount": null,
+      "mortgage": {
+        "product_type": "",
+        "annual_interest_rate": null,
+        "remaining_balance": null,
+        "purchase_date": "",
+        "monthly_payment": null
+      }
+    },
+    "secondary_residence": {
+      "residence_name": "",
+      "owner": "",
+      "purchase_amount": null,
+      "current_market_value": null,
+      "anticipate_selling": null,
+      "anticipated_sale_date": "",
+      "property_tax_amount": null,
+      "mortgage": {
+        "product_type": "",
+        "annual_interest_rate": null,
+        "remaining_balance": null,
+        "purchase_date": "",
+        "monthly_payment": null
+      }
+    },
+    "investment_properties": [],
+    "home_equity_loc": {
+      "has": null,
+      "property": "",
+      "balance": null,
+      "annual_interest_rate": null,
+      "monthly_payment": null,
+      "available_credit_line": null
+    },
+    "future_property_purchase": {
+      "plans_to_buy": null,
+      "when": "",
+      "where": "",
+      "estimated_cost": null
+    }
+  },
+  "liabilities": {
+    "credit_cards": [],
+    "cars": [],
+    "student_personal_loans": []
+  }
+}
